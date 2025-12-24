@@ -4,8 +4,8 @@ on:
   push
   
 jobs:
-  my_first_gha_job:
+  selfhosted_gha_job:
     runs-on: self-hosted
     steps:
       - name: message
-        run: echo "This is my First GitHub Actions Task"
+        run: echo "This is my First selfhosted GitHub Actions Task"
